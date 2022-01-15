@@ -1,0 +1,6 @@
+name: Disableadchievements
+version: '${project.version}'
+main: me.jurian.disableadchievements.disableadchievements.Disableadchievements
+api-version: 1.12
+authors: [Jurian]
+description: Een plugin die ervoor zorgt dat adchievements niet in de chat komen
