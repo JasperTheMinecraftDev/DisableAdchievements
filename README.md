@@ -1,5 +1,5 @@
 # DisableAdchievements
-Stop spamming your chat with minigames.
+Stop spamming your chat with minigame messages.
 This plugin is very simple, it just removes all adchievements in the chat.
 This is great if you have minigames and some new people join and then the chat is full of adchievements messages.....
 
