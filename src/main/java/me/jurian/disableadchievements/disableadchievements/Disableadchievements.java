@@ -12,15 +12,15 @@ public class Disableadchievements extends JavaPlugin implements Listener {
     @Override()
     public void onEnable()
     {
-        System.out.println("Disable-adchievements is enabled!");
+        System.out.println("Disable-adchievements is now enabled!");
         getServer().getPluginManager().registerEvents(this, this);
     }
     private void hideadchievements(World world) {
         world.setGameRuleValue("announceAdvancements", "false");
-        System.out.println("Achievements zijn nu verborgen voor wereld: '" + world.getName() + "'.");
+        System.out.println("Achievements are now hidden for the world: '" + world.getName() + "'.");
     }
 
-    /* verberg advancements voor nieuwe werelden */
+    /* Hide advancements for new worlds. */
     @EventHandler(priority = EventPriority.MONITOR)
     public void onWorldLoad(WorldLoadEvent event) {
         hideadchievements(event.getWorld());
