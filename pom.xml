@@ -11,7 +11,7 @@
 
     <name>Disableadchievements</name>
 
-    <description>Een plugin die ervoor zorgt dat adchievements niet in de chat komen</description>
+    <description>A plugin preventing adchievements from coming into the chat.</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
