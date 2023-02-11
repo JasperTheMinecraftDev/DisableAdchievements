@@ -6,7 +6,7 @@
 
     <groupId>me.jurian.disableadchievements</groupId>
     <artifactId>disableadchievements</artifactId>
-    <version>1.0</version>
+    <version>1.3</version>
     <packaging>jar</packaging>
 
     <name>Disableadchievements</name>
