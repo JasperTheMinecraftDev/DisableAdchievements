@@ -1,5 +1,5 @@
 name: Disableadchievements
-version: '${project.version}'
+version: 1.3
 main: me.jurian.disableadchievements.disableadchievements.Disableadchievements
 authors: [Jurian]
 description: A plugin preventing adchievements from appearing in the chat.
