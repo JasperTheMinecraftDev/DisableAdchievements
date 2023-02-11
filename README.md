@@ -8,6 +8,6 @@ There is no config, no hassle, just simple.
 1.Download the plugin.
 2.Drop it into your /plugins folder.
 3.Restart your server.
-4.Discord : https://discord.gg/FUjvJsacUA
+4.Discord: https://discord.com/invite/ujF4sGWGgH
 
 Spigot: https://www.spigotmc.org/resources/disableadchievements.99228/
