@@ -9,15 +9,19 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Disableadchievements extends JavaPlugin implements Listener {
 
-    @Override()
-    public void onEnable()
-    {
-        System.out.println("Disable-adchievements is now enabled!");
+    @Override
+    public void onEnable() {
+        getLogger().severe("Disable-adchievements is now enabled!");
         getServer().getPluginManager().registerEvents(this, this);
+    }
+
+    @Override
+    public void onDisable() {
+        getLogger().severe("Disable-adchievements is now disabled!");
     }
     private void hideadchievements(World world) {
         world.setGameRuleValue("announceAdvancements", "false");
-        System.out.println("Achievements are now hidden for the world: '" + world.getName() + "'.");
+        getLogger().info("Achievements are now hidden for the world: " + world.getName() + ".");
     }
 
     /* Hide advancements for new worlds. */
