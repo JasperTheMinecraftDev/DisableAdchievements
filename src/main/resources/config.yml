@@ -1,0 +1,12 @@
+# Configuration for Disable-Achievements plugin
+
+# Show disabled achievement messages to players
+show-disabled-achievements: true
+
+# List of achievements that will be ignored and not disabled
+ignored-achievements:
+  - minecraft:story/crafting_table
+  - minecraft:adventure/totem_of_undying
+
+# Message to display to players when an achievement is disabled
+disabled-achievement-message: "&c%s is disabled on this server."
